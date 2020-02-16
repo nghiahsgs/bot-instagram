@@ -93,7 +93,7 @@ class InstagramBot():
         list_btn_following[index].click()
         sleep(5)
 
-        input('kill')
+        #input('kill')
         btn_unfollow = self.driver.find_element_by_css_selector('div[role="dialog"] button')
         btn_unfollow.click()
     
